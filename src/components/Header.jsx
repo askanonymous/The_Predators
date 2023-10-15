@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <nav>   
         <div>
+            <img src={logo} alt="dataInsightsX-Logo" /> 
             <h1>dataInsightsX</h1>
-            <img src={logo} alt="dataInsightsX-Logo" />
         </div>
         <main>
             <Link to={"/"}>Home</Link>
